@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    max-width: 1024px;
+    margin: auto;
+    gap: 20px;
+
+    
+}
+
+.gallery > a > img {
+    width: 100%;
+    height: 100%;
+
+}
+
+input {
+    display: flex;
+    margin: auto;
+    border: 2px solid rgb(212,215,218);
+    height: 3.2em;
+    width: 35%;
+    border-radius: 5px;
+    padding: 1em;
+    cursor: context-menu;
+    font-size: medium;
+    font-weight: 500;
+}
+
+header {
+    padding: 2em 0 2em;
+}
